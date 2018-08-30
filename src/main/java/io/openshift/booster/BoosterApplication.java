@@ -24,6 +24,7 @@ import org.springframework.context.annotation.Bean;
 public class BoosterApplication {
 
     public static void main(String[] args) {
+        System.out.println("\n Welcome to OpenShift Test");
         SpringApplication.run(BoosterApplication.class, args);
     }
 
